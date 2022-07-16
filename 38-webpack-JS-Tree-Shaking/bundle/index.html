@@ -1,0 +1,135 @@
+Html Webpack Plugin:
+<pre>
+  Error: Child compilation failed:
+  Module build failed (from ./node_modules/image-webpack-loader/index.js  ):
+  Error: Cannot find module 'imagemin-gifsicle'
+  Require stack:
+  - D:\Web全栈代码\git仓库代码\Webpack+实现原理\38-webpack-JS-Tree-Shaking\node_modu  les\image-webpack-loader\index.js
+  - D:\Web全栈代码\git仓库代码\Webpack+实现原理\38-webpack-JS-Tree-Shaking\node_modu  les\loader-runner\lib\loadLoader.js
+  - D:\Web全栈代码\git仓库代码\Webpack+实现原理\38-webpack-JS-Tree-Shaking\node_modu  les\loader-runner\lib\LoaderRunner.js
+  - D:\Web全栈代码\git仓库代码\Webpack+实现原理\38-webpack-JS-Tree-Shaking\node_modu  les\webpack\lib\NormalModule.js
+  - D:\Web全栈代码\git仓库代码\Webpack+实现原理\38-webpack-JS-Tree-Shaking\node_modu  les\webpack\lib\NormalModuleFactory.js
+  - D:\Web全栈代码\git仓库代码\Webpack+实现原理\38-webpack-JS-Tree-Shaking\node_modu  les\webpack\lib\Compiler.js
+  - D:\Web全栈代码\git仓库代码\Webpack+实现原理\38-webpack-JS-Tree-Shaking\node_modu  les\webpack\lib\webpack.js
+  - D:\Web全栈代码\git仓库代码\Webpack+实现原理\38-webpack-JS-Tree-Shaking\node_modu  les\webpack-cli\bin\utils\validate-options.js
+  - D:\Web全栈代码\git仓库代码\Webpack+实现原理\38-webpack-JS-Tree-Shaking\node_modu  les\webpack-cli\bin\utils\convert-argv.js
+  - D:\Web全栈代码\git仓库代码\Webpack+实现原理\38-webpack-JS-Tree-Shaking\node_modu  les\webpack-cli\bin\cli.js
+  - D:\Web全栈代码\git仓库代码\Webpack+实现原理\38-webpack-JS-Tree-Shaking\node_modu  les\webpack\bin\webpack.js
+  
+  - loader:933 Function.Module._resolveFilename
+    node:internal/modules/cjs/loader:933:15
+  
+  - loader:778 Function.Module._load
+    node:internal/modules/cjs/loader:778:27
+  
+  - loader:1005 Module.require
+    node:internal/modules/cjs/loader:1005:19
+  
+  - v8-compile-cache.js:161 require
+    [38-webpack-JS-Tree-Shaking]/[v8-compile-cache]/v8-compile-cache.js:    161:20
+  
+  
+  - Error: Cannot find module 'imagemin-gifsicle'
+  
+  - Require stack:
+  
+  - - D:\Web全栈代码\git仓库代码\Webpack+实现原理\38-webpack-JS-Tree-Shaking\node_mo    dules\image-webpack-loader\index.js
+  
+  - - D:\Web全栈代码\git仓库代码\Webpack+实现原理\38-webpack-JS-Tree-Shaking\node_mo    dules\loader-runner\lib\loadLoader.js
+  
+  - - D:\Web全栈代码\git仓库代码\Webpack+实现原理\38-webpack-JS-Tree-Shaking\node_mo    dules\loader-runner\lib\LoaderRunner.js
+  
+  - - D:\Web全栈代码\git仓库代码\Webpack+实现原理\38-webpack-JS-Tree-Shaking\node_mo    dules\webpack\lib\NormalModule.js
+  
+  - - D:\Web全栈代码\git仓库代码\Webpack+实现原理\38-webpack-JS-Tree-Shaking\node_mo    dules\webpack\lib\NormalModuleFactory.js
+  
+  - - D:\Web全栈代码\git仓库代码\Webpack+实现原理\38-webpack-JS-Tree-Shaking\node_mo    dules\webpack\lib\Compiler.js
+  
+  - - D:\Web全栈代码\git仓库代码\Webpack+实现原理\38-webpack-JS-Tree-Shaking\node_mo    dules\webpack\lib\webpack.js
+  
+  - - D:\Web全栈代码\git仓库代码\Webpack+实现原理\38-webpack-JS-Tree-Shaking\node_mo    dules\webpack-cli\bin\utils\validate-options.js
+  
+  - - D:\Web全栈代码\git仓库代码\Webpack+实现原理\38-webpack-JS-Tree-Shaking\node_mo    dules\webpack-cli\bin\utils\convert-argv.js
+  
+  - - D:\Web全栈代码\git仓库代码\Webpack+实现原理\38-webpack-JS-Tree-Shaking\node_mo    dules\webpack-cli\bin\cli.js
+  
+  - - D:\Web全栈代码\git仓库代码\Webpack+实现原理\38-webpack-JS-Tree-Shaking\node_mo    dules\webpack\bin\webpack.js
+  
+  - compiler.js:79 
+    [38-webpack-JS-Tree-Shaking]/[html-webpack-plugin]/lib/compiler.js:7    9:16
+  
+  - Compiler.js:343 
+    [38-webpack-JS-Tree-Shaking]/[webpack]/lib/Compiler.js:343:11
+  
+  - Compiler.js:681 
+    [38-webpack-JS-Tree-Shaking]/[webpack]/lib/Compiler.js:681:15
+  
+  
+  - Hook.js:154 AsyncSeriesHook.lazyCompileHook
+    [38-webpack-JS-Tree-Shaking]/[tapable]/lib/Hook.js:154:20
+  
+  - Compiler.js:678 
+    [38-webpack-JS-Tree-Shaking]/[webpack]/lib/Compiler.js:678:31
+  
+  
+  - Hook.js:154 AsyncSeriesHook.lazyCompileHook
+    [38-webpack-JS-Tree-Shaking]/[tapable]/lib/Hook.js:154:20
+  
+  - Compilation.js:1423 
+    [38-webpack-JS-Tree-Shaking]/[webpack]/lib/Compilation.js:1423:35
+  
+  
+  - Hook.js:154 AsyncSeriesHook.lazyCompileHook
+    [38-webpack-JS-Tree-Shaking]/[tapable]/lib/Hook.js:154:20
+  
+  - Compilation.js:1414 
+    [38-webpack-JS-Tree-Shaking]/[webpack]/lib/Compilation.js:1414:32
+  
+  
+  - Hook.js:154 AsyncSeriesHook.lazyCompileHook
+    [38-webpack-JS-Tree-Shaking]/[tapable]/lib/Hook.js:154:20
+  
+  - Compilation.js:1409 
+    [38-webpack-JS-Tree-Shaking]/[webpack]/lib/Compilation.js:1409:36
+  
+  
+  - Hook.js:154 AsyncSeriesHook.lazyCompileHook
+    [38-webpack-JS-Tree-Shaking]/[tapable]/lib/Hook.js:154:20
+  
+  - Compilation.js:1405 
+    [38-webpack-JS-Tree-Shaking]/[webpack]/lib/Compilation.js:1405:32
+  
+  
+  - Hook.js:154 AsyncSeriesHook.lazyCompileHook
+    [38-webpack-JS-Tree-Shaking]/[tapable]/lib/Hook.js:154:20
+  
+  - Compilation.js:1342 Compilation.seal
+    [38-webpack-JS-Tree-Shaking]/[webpack]/lib/Compilation.js:1342:27
+  
+  - Compiler.js:675 
+    [38-webpack-JS-Tree-Shaking]/[webpack]/lib/Compiler.js:675:18
+  
+  - Compilation.js:1261 
+    [38-webpack-JS-Tree-Shaking]/[webpack]/lib/Compilation.js:1261:4
+  
+  
+  - Hook.js:154 AsyncSeriesHook.lazyCompileHook
+    [38-webpack-JS-Tree-Shaking]/[tapable]/lib/Hook.js:154:20
+  
+  - Compilation.js:1253 Compilation.finish
+    [38-webpack-JS-Tree-Shaking]/[webpack]/lib/Compilation.js:1253:28
+  
+  - Compiler.js:672 
+    [38-webpack-JS-Tree-Shaking]/[webpack]/lib/Compiler.js:672:17
+  
+  
+  - Compilation.js:1185 
+    [38-webpack-JS-Tree-Shaking]/[webpack]/lib/Compilation.js:1185:12
+  
+  - Compilation.js:1097 
+    [38-webpack-JS-Tree-Shaking]/[webpack]/lib/Compilation.js:1097:9
+  
+  - task_queues:78 processTicksAndRejections
+    node:internal/process/task_queues:78:11
+  
+</pre><script type="text/javascript" src="js/bundle.js"></script>
